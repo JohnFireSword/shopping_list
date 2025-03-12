@@ -4,6 +4,7 @@ import 'package:shopping_max/widgets/grocery_list.dart';
 
 void main() {
   runApp(const MyApp());
+  
 }
 
 class MyApp extends StatelessWidget {
@@ -13,6 +14,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Flutter Groceries',
       theme: ThemeData.dark().copyWith(
         useMaterial3: true,
